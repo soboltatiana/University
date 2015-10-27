@@ -1,0 +1,4 @@
+test_register:
+    resource: "@TestRegisterBundle/Resources/config/routing.yml"
+    prefix:   /
+

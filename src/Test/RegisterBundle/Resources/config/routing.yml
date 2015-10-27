@@ -1,0 +1,7 @@
+test_register_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: TestRegisterBundle:Default:index }
+
+test_hello_word:
+    path:     /helloword
+    defaults: {_controller: TestRegisterBundle:Default:hello }
