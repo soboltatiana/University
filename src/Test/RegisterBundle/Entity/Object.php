@@ -17,7 +17,7 @@ use Doctrine\ORM\Mapping as ORM;
  */
 
 /**
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Test\RegisterBundle\Repository\ObjectRepository")
  */
 class Object {
 
@@ -171,5 +171,9 @@ class Object {
     public function getTeachers()
     {
         return $this->teachers;
+    }
+    
+    public function __toString(){
+        return $this->shortName;
     }
 }

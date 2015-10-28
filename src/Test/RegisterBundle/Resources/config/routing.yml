@@ -5,3 +5,11 @@ test_register_homepage:
 test_hello_word:
     path:     /helloword
     defaults: {_controller: TestRegisterBundle:Default:hello }
+    
+objects_with_a:
+    path:     /object/find/a
+    defaults: {_controller: TestRegisterBundle:Object:getObjectsWithA}
+
+object_add:
+    path:     /object/add
+    defaults: {_controller: TestRegisterBundle:Object:add}
