@@ -15,12 +15,12 @@ class VariadicTypeHintClass
     /**
      * @param ...$types
      */
-    public function addType(...$types)
+    public function addType($types)
     {
         $this->types = $types;
     }
 
-    public function addTypeWithMultipleParameters($foo, $bar, ...$baz)
+    public function addTypeWithMultipleParameters($foo, $bar,$baz)
     {
         $this->foo = $foo;
         $this->bar = $bar;
