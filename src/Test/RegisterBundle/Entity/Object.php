@@ -31,7 +31,7 @@ class Object {
 
     /**
      *
-     * @ORM\Column(name="shortName",type="string",length=10)
+     * @ORM\Column(name="shortName", type="string", length=10, unique=true)
      */
     private $shortName;
 
@@ -43,7 +43,7 @@ class Object {
 
     /**
      *
-     * @ORM\Column(name="description",type="text")
+     * @ORM\Column(name="description",type="text", nullable=true)
      */
     private $description;
 

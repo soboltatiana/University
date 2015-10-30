@@ -13,3 +13,10 @@ objects_with_a:
 object_add:
     path:     /object/add
     defaults: {_controller: TestRegisterBundle:Object:add}
+    
+get_single_object:
+    path:     /object/{id}
+    defaults:  {_controller: TestRegisterBundle:Object:getById}
+    requirements:
+        id: \d+
+        
