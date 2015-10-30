@@ -3,10 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/tatiana/NetBeansProjects/Test/app/config/parameters.yml</file>
-            <file>file:/home/tatiana/NetBeansProjects/Test/src/Test/RegisterBundle/Resources/config/services.yml</file>
-            <file>file:/home/tatiana/NetBeansProjects/Test/composer.json</file>
-            <file>file:/home/tatiana/NetBeansProjects/Test/app/AppKernel.php</file>
+            <file>file:/home/tatiana/NetBeansProjects/Test/src/Test/RegisterBundle/Controller/ObjectController.php</file>
+            <file>file:/home/tatiana/NetBeansProjects/Test/src/Test/RegisterBundle/Controller/TeacherController.php</file>
+            <file>file:/home/tatiana/NetBeansProjects/Test/src/Test/RegisterBundle/Resources/views/Object/add.html.twig</file>
+            <file>file:/home/tatiana/NetBeansProjects/Test/app/config/security.yml</file>
+            <file>file:/home/tatiana/NetBeansProjects/Test/src/Test/RegisterBundle/Entity/Object.php</file>
+            <file>file:/home/tatiana/NetBeansProjects/Test/src/Test/RegisterBundle/Resources/config/routing.yml</file>
+            <file>file:/home/tatiana/NetBeansProjects/Test/app/config/config.yml</file>
+            <file>file:/home/tatiana/NetBeansProjects/Test/src/Test/RegisterBundle/Repository/ObjectRepository.php</file>
         </group>
     </open-files>
 </project-private>
