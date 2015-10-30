@@ -2,4 +2,4 @@ _assetic:
     resource: .
     type: assetic
 _app:
-    resource: /home/tatiana/NetBeansProjects/University/app/config/routing_dev.yml
+    resource: /home/tatiana/NetBeansProjects/Test/app/config/routing_dev.yml
