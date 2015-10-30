@@ -1,10 +1,10 @@
-test_register_homepage:
-    path:     /hello/{name}
+test_homepage:
+    path:     /
     defaults: { _controller: TestRegisterBundle:Default:index }
 
-test_hello_word:
-    path:     /helloword
-    defaults: {_controller: TestRegisterBundle:Default:hello }
+test_hello_user:
+    path:     /hellouser
+    defaults: {_controller: TestRegisterBundle:Default:helloUser }
     
 objects_with_a:
     path:     /object/find/a

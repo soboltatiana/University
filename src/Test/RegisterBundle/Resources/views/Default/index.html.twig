@@ -1,1 +1,9 @@
-Hello {{ name }}!
+{% extends "TestRegisterBundle::layout.html.twig" %}
+
+{% block body %}
+    <h3>Welcome to your Personal Schedule Page</h3>
+    {% if not app.user %}
+         <a href="{{path('login')}}">Do you want to login?</a>
+         
+    {% endif %}
+{% endblock %}
